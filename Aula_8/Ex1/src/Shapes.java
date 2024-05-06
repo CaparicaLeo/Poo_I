@@ -17,5 +17,19 @@ public class Shapes {
         t2.mostraEstilo();
         t2.mostraDim();
         System.out.println("Area = " + t2.area());
+
+        Retangulo r1 = new Retangulo();
+        Retangulo r2 = new Retangulo();
+        System.out.println("\nInfo de r1");
+        r1.setAltura(5.5);
+        r1.setLargura(5.7);
+        r1.area();
+        System.out.println("E um quadrado perfeito: "+ r1.isQuadrado());
+
+        System.out.println("\nInfo de r2");
+        r2.setAltura(5.0);
+        r2.setLargura(5.0);
+        r2.area();
+        System.out.println("E um quadrado perfeito: "+ r2.isQuadrado());
     }
 }
